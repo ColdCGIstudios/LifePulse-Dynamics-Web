@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifePulse Dynamics</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #f5f5f5;
+            background-color: #121212;
+        }
+    
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1500x800') no-repeat center center / cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+    
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+    
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+    
+        .cta-button {
+            background-color: #008cff;
+            color: #fff;
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+    
+        .cta-button:hover {
+            background-color: #005f9c;
+            transform: scale(1.05);
+        }
+    
+        /* Article Section */
+        .article {
+            padding: 4rem 1rem;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+        }
+    
+        .article h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+    
+        /* Gradient Titles */
+        h3 {
+            font-size: 1.8rem;
+            background: linear-gradient(to right, #00d4ff, #00ff9a);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+    
+        /* Download Section */
+        .download-btn-container {
+            text-align: center;
+            margin: 3rem 0 1rem;
+        }
+    
+        .download-btn {
+            background-color: #008cff;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+    
+        .download-btn:hover {
+            background-color: #005f9c;
+            transform: scale(1.05);
+        }
+    
+        .download-options {
+            text-align: center;
+            display: none;
+            margin-top: 1.5rem;
+        }
+    
+        .download-options button {
+            padding: 0.6rem 1.8rem;
+            margin: 0.5rem;
+            background-color: #2c2c2c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+    
+        .download-options button:hover {
+            background-color: #008cff;
+            transform: scale(1.1);
+        }
+    </style>
+    
+    
+    
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>LifePulse Dynamics</h1>
+            <p>Innovating the future of Elevator industry.</p>
+            <a href="javascript:void(0);" class="cta-button" onclick="showArticle()">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Article Section (Hidden initially) -->
+    <section id="article" class="article" style="display:none;">
+        <div class="article-content">
+            <div class="article-content">
+                <h2>Market research content</h2>
+                
+                <h3>INTRODUCING LIFEPULSE Dynamics</h3>
+                <p>Hi, this is the Marketing plan of our organization “LifePulse Dynamics”, We give life-saving equipment for all and enhance the quality of life by reducing accidents. We are launching our first product in the market which focuses on Elevator failures in developing cities. The name of our first product is “Magneteron” This report is About our Marketing strategies and potential customers. Here, we will talk about our ideas, not from the Business point of view, but as innovators also.
+                </p>
+                
+                <h3>PROBLEM</h3>
+                <p>One of the problems that we are trying to solve are falling elevators. In a developing country like India population is greater and therefore lift systems are commonly used in populated places. Many times proper maintenance is not taken seriously and in cases, the lifts fall and people die because of the immense force applied
+                </p>
+                
+                <h3>WHY IS IT IMPORTANT?</h3>
+                <p>The problem is important because in today’s time accidents in man-made machines acre common. These accidents can be avoided but unfortunately still take place. These elevator systems are necessary in places like Malls, Stations, Airports, Hospitals, Capital buildings etc. If these things fail there then there will be casualties. That’s why this problem is important.
+                </p>
+                
+                <h3>THE SOLUTION</h3>
+                <p>The solution to this problem is our new product -‘Magneteron’. This aims on stopping these lifts from falls and making these lifts smarter and stopping these from harmful falls. Also a new safety standard for safety systems will be introduced which is – ‘Life Line Safety Standard’ or LLSS secured which is the safety remark of our company that tells how safe is the item is.
+                </p>
+                <p>Many remarks like this already exist, for reference – FSSAI, ISO 9001, ISI, DGCA etc. But no one in these focus emergency safety standards, we are going to create an international remark for all these – LLSS secured. This will focus on every equipment that can harm in any way majorly electrical appliances. That remark ensures that the system you are using is totally safe. 
+                </p>
+                
+                <h3>HOW DOES MAGNETERON WORK?</h3>
+                <p>The Magneteron is a cutting-edge safety device designed for lift systems, utilizing electromagnetic forces to ensure safe operation during unexpected hazards while significantly reducing shock impact. This device is equipped with advanced resonant sensors that can accurately differentiate between normal vibrations—such as those caused by passengers—and more serious issues like cable breaks or seismic activity. When the system detects a cable failure, it responds swiftly by deploying four electromagnetically activated hooks. These hooks securely attach to the pipeline joints, effectively bringing the lift to a stop and preventing a fall. To alleviate concerns regarding the potential danger of sudden stops, the Magneteron is also integrated with four magnetic compressors. These compressors are engineered to absorb shock by utilizing magnetic repulsion, ensuring that the impact felt by passengers is minimized. In summary, the Magneteron represents a significant advancement in lift safety technology by combining innovative design with electromagnetic principles, thereby enhancing passenger safety and confidence during emergencies.
+                </p>
+                
+                <h3>POTENTIAL BUYERS</h3>
+                <p>Some of the most expected buyers are:
+                    <ul type="disc">
+                        <li>Construction companies:
+                            <li>Reliance Infrastructure Limited</li>
+                            <li>Larsen and Toubro Limited </li>
+                        </li>
+                        <li>Elevator companies:
+                            <li>Otis Elevator Company India Limited</li>
+                        </li>
+                    </ul>
+                </p>
+                
+                <h3>IS THE PRICE SUSTAINABLE?</h3>
+                <p>Now you might be wondering that is the budget of this system sustainable?
+                    The answer to this is YES. Because on a average, a lift installation costs around 11 lacs to 35 lacs, so, 61,000 is no big deal with already systems reaching 75,000 rupees, therefore, the total cost of just safety systems will cost around 1,36,000 rupees and that’s a feasible amount for following safety
+                </p>
+
+                <h3>TOTAL ADDRESSABLE MARKET</h3>
+                <p>The total range of market where we can possibly reach are the construction companies, elevators companies of the whole world as the LLSS secured mark is to be added to products world-wide.
+                </p>
+                
+                <h3>SERVICEABLE ADDRESSABLE MARKET</h3>
+                <p>The total range of market where we can possibly provide our services is our country India. We should be able to spread our services including the LLSS mark in India before reaching outside.
+                </p>
+                
+                <h3>SHARE OF MARKET</h3>
+                <p>The total range of market where we can possibly achieve popularity are the major cities of India, like:
+                    <ul type = "disc">
+                    <li>Delhi</li>
+                    <li>Mumbai</li>
+                    <li>Banglore</li>
+                    <li>Pune</li>
+                    <li>Chennai</li>
+                    </ul>
+                    </p>
+                
+                <h3>TREND</h3>
+                <p>Shown below is the Trend chart between the available elevators and failures in past 5 years
+                </p>
+                <div class="image-container">
+                    <img src="Graph.jpg" width="900" height="400" alt="Trend Graph">
+                </div>
+                
+                <h3>MARKETING STRATEGY</h3>
+                <p>In the vibrant landscape of India's elevator market, which stands as the second largest in the world, we see an unparalleled opportunity for growth and innovation. With an annual installation of 50,000 to 56,000 new elevators and an existing base of approximately 700,000 units, we are strategically positioned to leverage this booming sector. Our advanced systems, secured by LLSS verification, will instill a newfound trust among construction companies, enabling them to confidently choose our products for their installation needs. This trust is a key differentiator, creating a compelling case for our unique offering in the market. At a competitive price point of just ₹61,000 per product, we ensure profitability with a substantial gain of ₹7,500, inclusive of all taxes. By aligning with industry giants like Otis Electric and positioning ourselves as the preferred supplier for construction firms, we aim to capture at least 25% of the total elevator projects in India. This strategic partnership not only opens the door to significant revenue potential but also projects an estimated profit of approximately ₹105 crores in the startup phase alone. With a predicted success rate of around 60%, we are confident in our ability to establish a strong market presence and drive sustained growth. With our innovative solutions and robust market strategy, we are not just participating in the industry; we are poised to lead it. Join us as we redefine standards and drive forward in India's elevator market!
+                </p>
+                
+                <h3>OUR POLICIES</h3>
+                <p>According to our policy, we must give 105% of the money back to the investors for investing in our business. For example, if they donate 10 crores in our startup phase, we must give them back 10.5 crores for investing in our organization. If any part is damaged in the product, the customer can return the product and get a new one. We get our products delivered to the required construction site on any order.
+                </p>
+                
+                <h3>THANK YOU!</h3>
+                <p>Thanks for reading report, visit again, we await!</p>
+            </div>
+            
+            
+            <div class="download-btn-container">
+                <button class="download-btn" onclick="toggleDownloadOptions()">Download Article</button>
+            </div>
+            
+            <div class="download-options" id="download-options">
+                <button onclick="downloadPDF()">Download as PDF</button>
+                <button onclick="downloadPPT()">Download as PPT</button>
+            </div>
+            </div>
+            </section>
+            
+            <script>
+                // Function to show article page
+                function showArticle() {
+                    document.querySelector('.hero').style.display = 'none';
+                    document.querySelector('#article').style.display = 'block';
+                }
+            
+                // Toggle download options visibility
+                function toggleDownloadOptions() {
+                    const options = document.getElementById('download-options');
+                    options.style.display = options.style.display === 'none' || options.style.display === '' ? 'block' : 'none';
+                }
+            
+                // Function to download PDF from specified location
+                function downloadPDF() {
+                    const pdfUrl = 'LifePulse Dynamics Marketing plan_PDF.pdf'; // Replace with your actual PDF file URL
+                    const link = document.createElement('a');
+                    link.href = pdfUrl;
+                    link.download = 'article.pdf'; // Filename when downloading
+                    link.click();
+                }
+            
+                // Function to download PPT from specified location
+                function downloadPPT() {
+                    const pptUrl = 'LifePulse Dynamics Marketing plan_PPT.pptx'; // Replace with your actual PPT file URL
+                    const link = document.createElement('a');
+                    link.href = pptUrl;
+                    link.download = 'article.pptx'; // Filename when downloading
+                    link.click();
+                }
+            </script>
+            
+
+    <!-- Include jsPDF and PptxGenJS libraries for PDF and PPT functionality -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.10.0/dist/pptxgen.min.js"></script>
+</body>
+</html>
